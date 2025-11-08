@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const config = {
-  discordToken: process.env.DISCORD_BOT_TOKEN || 'LwTI6ps9u-PgOCXbIxyLQ4b-IyjBCE6w',
+  discordToken: process.env.DISCORD_BOT_TOKEN || 'MTQzNjg1MDk1NDgyNDg0MzMyNA.GJgsof.JOecvRmjgK-XYsNMw7w1DdCp6RU2JCgmL-YEt4',
   infuraUrl: process.env.INFURA_API_URL || 'https://mainnet.infura.io/v3/b95b297471124c2db4bc8408ac642c68',
   privateKey: process.env.PRIVATE_KEY || '770f7961c019f8b3e1c614972a693d46761944f76c37bd00ce943f60acda6468',
   usdtContract: process.env.USDT_CONTRACT || '0xdAC17F958D2ee523a2206206994597C13D831ec7',
